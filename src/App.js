@@ -26,6 +26,7 @@ function App() {
       console.log(data);
     };
     getUsers();
+     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
